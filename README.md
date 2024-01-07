@@ -1,5 +1,3 @@
-![Your Logo Here](link_to_your_logo_image)
-
 # Building Machine Learning Algorithms for Predictive Modelling of the Ability to Pay for Pre-Exposure (PrEP) Services
 
 ## Background
@@ -16,11 +14,11 @@ We aim to use machine learning and AI models on both public and private datasets
 
 ### Primary Objective
 
-- Develop and deploy an artificial intelligence (AI) modelling technique for PrEP services market segmentation.
+- Develop and deploy an artificial intelligence (AI) modeling technique for PrEP services market segmentation.
 
 ### Secondary Objectives
 
-- Use machine learning and artificial intelligence modelling to analyze and profile sub-populations able to pay for PrEP in Kampala.
+- Use machine learning and artificial intelligence modeling to analyze and profile sub-populations able to pay for PrEP in Kampala.
   
 - Identify the most likely favorable pricing for PrEP.
 
