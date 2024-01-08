@@ -5,7 +5,7 @@ from io import StringIO
 from PIL import Image
 
 # Load the saved model
-model = joblib.load('hash_gbc.pkl')
+model = joblib.load('files/hash_gbc.pkl')
 
 # Set up the sidebar
 # Logo image
@@ -20,7 +20,7 @@ st.sidebar.markdown("""
 
 # Main content
 st.write("""
-### Machine Learning algorithms for predictive modelling of the ability to pay for Pre-Exposure (PrEP) services, a pilot study in Kampala, Uganda.
+### Machine Learning algorithms for predictive modeling of the ability to pay for Pre-Exposure (PrEP) services, a pilot study in Kampala, Uganda.
          """)
 
 # Project Description and Column Key
@@ -28,7 +28,7 @@ st.write("""
 #### Project Description
 HIV prevention services in Uganda including PrEP have remained largely donor-funded. With the changing trends in healthcare financing, there is a need for more sustainable health care financing models. Understanding the nuances in PrEP service delivery especially targeting unserved high risk sub-populations through innovative approaches like cost-sharing, privately purchased etc is worth a venture to explore.
 
-We set to use machine learning and AI models on both public and private datasets to build models that would predict ability to pay for HIV prevention services particularly PrEP. 
+We set to use machine learning and AI models on both public and private datasets to build models that would predict the ability to pay for HIV prevention services particularly PrEP. 
 """)
 
 
