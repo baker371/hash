@@ -21,8 +21,17 @@ uploaded_file = st.sidebar.file_uploader("Choose a CSV file", type=["csv"])
 
 st.sidebar.markdown(""" [Example input file]((https://github.com/baker371/hash/blob/main/files/sample.csv))""")
 
+# File path to your CSV file
+file_path = "files/sample.csv"
 
-
+# Sidebar download button
+with open(file_path, "rb") as file:
+    st.sidebar.download_button(
+        label="Download example input file",
+        data=file,
+        file_name="sample.csv",
+        mime="text/csv"
+    )
 
 
 # Display HASH logo image
