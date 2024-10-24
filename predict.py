@@ -19,8 +19,8 @@ st.sidebar.image(image, width=300)
 st.sidebar.title('Upload CSV file')
 uploaded_file = st.sidebar.file_uploader("Choose a CSV file", type=["csv"])
 
-file_path = st.get_file_path("files/sample.csv")
-st.sidebar.markdown(f""" [Example input file]({file_path})""")
+st.sidebar.markdown(""" [Example input file]((https://github.com/baker371/hash/blob/main/files/sample.csv))""")
+
 
 
 
