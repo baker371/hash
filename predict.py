@@ -18,9 +18,8 @@ image = Image.open('files/tmcg.png')
 st.sidebar.image(image, width=300)
 st.sidebar.title('Upload CSV file')
 uploaded_file = st.sidebar.file_uploader("Choose a CSV file", type=["csv"])
-st.sidebar.markdown("""
-[Example input file](files/sample.csv)
-""")
+st.sidebar.markdown(""" [Example input file](./files/sample.csv)""")
+
 
 
 # Display HASH logo image
